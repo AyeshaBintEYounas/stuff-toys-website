@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stuff Toys — lovable, quality plush toys for every age.">
+  <title>Products | Stuff Toys</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Stuff Toys home">
+        <img src="images/Image1.jpg" alt="Stuff Toys logo">
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a class="" href="index.html">Home</a>
+        <a class="" href="about.html">About</a>
+        <a class="active" href="products.html">Products</a>
+        <a class="" href="gallery.html">Gallery</a>
+        <a class="" href="contact.html">Contact</a>
+        <a class="cart-link" href="cart.html">🛒 Cart <span id="cartCount" class="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero"><div class="container"><span class="eyebrow">Our collection</span><h1>Find your new favourite friend.</h1><p>Browse our colourful range of plush toys and add your favourites to the demo cart.</p></div></section>
+    <section class="section"><div class="container">
+      <div class="toolbar"><div><h2>All Products</h2><p id="resultCount">15 products</p></div>
+        <div class="toolbar-controls"><label for="search">Search <input id="search" type="search" placeholder="Search toys..."></label>
+        <label for="sort">Sort <select id="sort"><option value="default">Featured</option><option value="low">Price: Low to High</option><option value="high">Price: High to Low</option><option value="name">Name A–Z</option></select></label></div>
+      </div>
+      <div class="product-grid" id="productGrid"><article class="product-card" data-name="Brown Teddy Bear" data-price="500">
+  <div class="product-img"><img src="images/Image11.png" alt="Brown Teddy Bear"></div>
+  <h3>Brown Teddy Bear</h3><p class="price">Rs. 500</p>
+  <button class="btn small add-cart" data-product="Brown Teddy Bear" data-price="500">Add to cart</button>
+</article>
+<article class="product-card" data-name="Hello Kitty" data-price="500">
+  <div class="product-img"><img src="images/Image12.png" alt="Hello Kitty"></div>
+  <h3>Hello Kitty</h3><p class="price">Rs. 500</p>
+  <button class="btn small add-cart" data-product="Hello Kitty" data-price="500">Add to cart</button>
+</article>
+<article class="product-card" data-name="Doremon" data-price="500">
+  <div class="product-img"><img src="images/Image13.png" alt="Doremon"></div>
+  <h3>Doremon</h3><p class="price">Rs. 500</p>
+  <button class="btn small add-cart" data-product="Doremon" data-price="500">Add to cart</button>
+</article>
+<article class="product-card" data-name="Big Pink Teddy Bear" data-price="500">
+  <div class="product-img"><img src="images/Image14.png" alt="Big Pink Teddy Bear"></div>
+  <h3>Big Pink Teddy Bear</h3><p class="price">Rs. 500</p>
+  <button class="btn small add-cart" data-product="Big Pink Teddy Bear" data-price="500">Add to cart</button>
+</article>
+<article class="product-card" data-name="White Rabbit" data-price="500">
+  <div class="product-img"><img src="images/Image7.png" alt="White Rabbit"></div>
+  <h3>White Rabbit</h3><p class="price">Rs. 500</p>
+  <button class="btn small add-cart" data-product="White Rabbit" data-price="500">Add to cart</button>
+</article>
+<article class="product-card" data-name="White Hare" data-price="500">
+  <div class="product-img"><img src="images/Image8.png" alt="White Hare"></div>
+  <h3>White Hare</h3><p class="price">Rs. 500</p>
+  <button class="btn small add-cart" data-product="White Hare" data-price="500">Add to cart</button>
+</article>
+<article class="product-card" data-name="Giraffe" data-price="500">
+  <div class="product-img"><img src="images/Image9.png" alt="Giraffe"></div>
+  <h3>Giraffe</h3><p class="price">Rs. 500</p>
+  <button class="btn small add-cart" data-product="Giraffe" data-price="500">Add to cart</button>
+</article>
+<article class="product-card" data-name="Brown Puppy" data-price="500">
+  <div class="product-img"><img src="images/Image10.png" alt="Brown Puppy"></div>
+  <h3>Brown Puppy</h3><p class="price">Rs. 500</p>
+  <button class="btn small add-cart" data-product="Brown Puppy" data-price="500">Add to cart</button>
+</article>
+<article class="product-card" data-name="Teddy Bear" data-price="500">
+  <div class="product-img"><img src="images/Image15.png" alt="Teddy Bear"></div>
+  <h3>Teddy Bear</h3><p class="price">Rs. 500</p>
+  <button class="btn small add-cart" data-product="Teddy Bear" data-price="500">Add to cart</button>
+</article>
+<article class="product-card" data-name="Tweety" data-price="500">
+  <div class="product-img"><img src="images/Image16.png" alt="Tweety"></div>
+  <h3>Tweety</h3><p class="price">Rs. 500</p>
+  <button class="btn small add-cart" data-product="Tweety" data-price="500">Add to cart</button>
+</article>
+<article class="product-card" data-name="Micky Mouse" data-price="500">
+  <div class="product-img"><img src="images/Image17.png" alt="Micky Mouse"></div>
+  <h3>Micky Mouse</h3><p class="price">Rs. 500</p>
+  <button class="btn small add-cart" data-product="Micky Mouse" data-price="500">Add to cart</button>
+</article>
+<article class="product-card" data-name="Pikachu" data-price="500">
+  <div class="product-img"><img src="images/Image18.png" alt="Pikachu"></div>
+  <h3>Pikachu</h3><p class="price">Rs. 500</p>
+  <button class="btn small add-cart" data-product="Pikachu" data-price="500">Add to cart</button>
+</article>
+<article class="product-card" data-name="White Bear" data-price="500">
+  <div class="product-img"><img src="images/Image4.png" alt="White Bear"></div>
+  <h3>White Bear</h3><p class="price">Rs. 500</p>
+  <button class="btn small add-cart" data-product="White Bear" data-price="500">Add to cart</button>
+</article>
+<article class="product-card" data-name="Pink Blue Octopus" data-price="500">
+  <div class="product-img"><img src="images/Image5.png" alt="Pink Blue Octopus"></div>
+  <h3>Pink Blue Octopus</h3><p class="price">Rs. 500</p>
+  <button class="btn small add-cart" data-product="Pink Blue Octopus" data-price="500">Add to cart</button>
+</article>
+<article class="product-card" data-name="Pink Elephant" data-price="500">
+  <div class="product-img"><img src="images/Image6.png" alt="Pink Elephant"></div>
+  <h3>Pink Elephant</h3><p class="price">Rs. 500</p>
+  <button class="btn small add-cart" data-product="Pink Elephant" data-price="500">Add to cart</button>
+</article></div>
+    </div></section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section>
+        <img class="footer-logo" src="images/Image1.jpg" alt="Stuff Toys">
+        <p>Soft friends, happy memories. Quality stuffed toys made to brighten every day.</p>
+      </section>
+      <section>
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </section>
+      <section>
+        <h3>Contact</h3>
+        <p>📍 Lahore, Pakistan</p>
+        <p>📞 +92 300 1234567</p>
+        <p>✉️ hello@stufftoys.example</p>
+      </section>
+      <section>
+        <h3>Follow Us</h3>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="YouTube">YouTube</a>
+        </div>
+      </section>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Stuff Toys. Static educational project.</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

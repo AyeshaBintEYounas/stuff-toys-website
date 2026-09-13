@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stuff Toys — lovable, quality plush toys for every age.">
+  <title>Gallery | Stuff Toys</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Stuff Toys home">
+        <img src="images/Image1.jpg" alt="Stuff Toys logo">
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a class="" href="index.html">Home</a>
+        <a class="" href="about.html">About</a>
+        <a class="" href="products.html">Products</a>
+        <a class="active" href="gallery.html">Gallery</a>
+        <a class="" href="contact.html">Contact</a>
+        <a class="cart-link" href="cart.html">🛒 Cart <span id="cartCount" class="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero"><div class="container"><span class="eyebrow">Gallery</span><h1>A colourful world of cuddles.</h1><p>Click any image to open the larger gallery preview.</p></div></section>
+    <section class="section"><div class="container">
+      <div class="gallery-grid">
+        <button class="gallery-item" data-full="images/Image11.png"><img src="images/Image11.png" alt="Brown Teddy Bear"><span>Brown Teddy Bear</span></button>
+        <button class="gallery-item" data-full="images/Image12.png"><img src="images/Image12.png" alt="Hello Kitty"><span>Hello Kitty</span></button>
+        <button class="gallery-item" data-full="images/Image13.png"><img src="images/Image13.png" alt="Doremon"><span>Doremon</span></button>
+        <button class="gallery-item" data-full="images/Image14.png"><img src="images/Image14.png" alt="Big Pink Teddy Bear"><span>Big Pink Teddy Bear</span></button>
+        <button class="gallery-item" data-full="images/Image7.png"><img src="images/Image7.png" alt="White Rabbit"><span>White Rabbit</span></button>
+        <button class="gallery-item" data-full="images/Image9.png"><img src="images/Image9.png" alt="Giraffe"><span>Giraffe</span></button>
+        <button class="gallery-item" data-full="images/Image10.png"><img src="images/Image10.png" alt="Brown Puppy"><span>Brown Puppy</span></button>
+        <button class="gallery-item" data-full="images/Image18.png"><img src="images/Image18.png" alt="Pikachu"><span>Pikachu</span></button>
+      </div>
+    </div></section>
+    <div class="modal" id="imageModal" aria-hidden="true"><div class="modal-box"><button class="modal-close" id="modalClose" aria-label="Close">×</button><img id="modalImage" src="" alt=""><p id="modalCaption"></p></div></div>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section>
+        <img class="footer-logo" src="images/Image1.jpg" alt="Stuff Toys">
+        <p>Soft friends, happy memories. Quality stuffed toys made to brighten every day.</p>
+      </section>
+      <section>
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </section>
+      <section>
+        <h3>Contact</h3>
+        <p>📍 Lahore, Pakistan</p>
+        <p>📞 +92 300 1234567</p>
+        <p>✉️ hello@stufftoys.example</p>
+      </section>
+      <section>
+        <h3>Follow Us</h3>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="YouTube">YouTube</a>
+        </div>
+      </section>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Stuff Toys. Static educational project.</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
