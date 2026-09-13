@@ -68,3 +68,4 @@ Use meaningful commits such as:
 - `Add gallery modal interaction`
 - `Add contact form validation`
 - `Add localStorage shopping cart`
+Website deployment update.
