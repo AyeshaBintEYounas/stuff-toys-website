@@ -7,3 +7,15 @@
 .nav-links a:hover {
     transform: translateY(-2px);
 }
+
+/* Home page button enhancement */
+.hero .btn,
+.hero .btn-primary {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero .btn:hover,
+.hero .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
